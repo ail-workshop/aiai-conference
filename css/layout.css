@@ -221,3 +221,51 @@ body {
 
 
 
+/* MENU */
+
+.ui-section-header--nav-link {
+  font-size: var(--ui-typography-h3);
+  padding: .5rem;
+  text-decoration: none;
+}
+
+
+
+/* NAV */
+/*
+.ui-section-header--nav {
+  background-color: transparent;
+  box-shadow: none;
+  flex-direction: row;
+  opacity: 1;
+  padding: 0;
+  position: static;
+  visibility: visible;
+  gap: 20px;
+}
+
+.ui-section-header--nav-link {
+  font-size: var(--ui-typography-p);
+  padding: 0;
+}
+*/
+/*--------------------------------------------------------------
+5.0 LAYOUT
+--------------------------------------------------------------*/
+/*
+.ui-layout-container {
+  padding-left: var(--ui-layout-container);
+  padding-right: var(--ui-layout-container);
+}
+
+.ui-layout-flex,
+.ui-layout-grid {
+  align-items: center;
+  justify-content: center;
+}
+
+.ui-layout-flex { display: flex; }
+
+.ui-layout-grid { display: grid; }
+
+*/
