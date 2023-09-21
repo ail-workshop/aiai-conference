@@ -122,10 +122,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: center;
 }
 
 .project-header-image {
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
