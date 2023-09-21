@@ -20,6 +20,7 @@ body {
 .main-title {
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
 }
 
 .subheader-text {
