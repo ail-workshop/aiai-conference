@@ -65,16 +65,6 @@ function footerContainer(){
                       write("Agency and Intentions in Language");
                   write("</a>");
           write("</div>");
-        write("<div>");
-                write("<a target='_blank' href='https://uni-goettingen.de/de/vorschau_3dd0fb16351b3f7ffbd9a226d14b3a9b/652812.html'>");
-                    write("<img src='./assets/images/ASG_white.png' style='width:100px'>");
-                write("</a>");
-        write("</div>");
-        write("<div class='project-card-text-container'>");
-                write("<a class='button' target='_blank' href='https://uni-goettingen.de/de/vorschau_3dd0fb16351b3f7ffbd9a226d14b3a9b/652812.html'>");
-                    write("Action Sensitivity in Grammar");
-                write("</a>");
-        write("</div>");
         write("</div>");
           }
   }
