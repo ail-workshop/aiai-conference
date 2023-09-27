@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="./css/utilities.css">
 
         <script defer src="./js/script.js"></script>
+        <script type="text/javascript" src="./js/common.js"></script>
+
     </head>
 	<body>
-    <header role="banner">
+        <script type="text/javascript">
+            header ();
+        </script>
+   <header role="banner">
     <!-- NAVBAR -->
         <div class="navbar">
           <a class="nav-title-link" href="./index.html">
@@ -112,7 +117,10 @@
                       <a class="no-underline" target="_blank" href="https://juliegoncharov.com">
                           Julie Goncharov (University of Goettingen)</a>
                   </li>
-                <li> Kyle Thompson (Harvey Mudd College)</li>
+                  <li>
+                      <a class="no-underline" target="_blank"                     href="https://www.heddezeijlstra.org">
+                          Kyle Thompson (Harvey Mudd College)</a>
+                  </li>
                 <li>Hedde Zeijlstra (University of Goettingen)</li>
               </ul>
           </div>
@@ -187,8 +195,11 @@
       </div>
     </div>
       <!-- FOOTER -->
-      <p align="center">
+      <script type="text/javascript">
+          footerContainer();
+      </script>
+<!--      <p align="center">
           <iframe src="footer.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"  frameborder="0" scrolling="no" width="75%" height="200"></iframe>
-      </p>
+      </p>-->
 </body>
 </html>
