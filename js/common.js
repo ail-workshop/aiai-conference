@@ -24,6 +24,7 @@ function header () {
       write("<div id='project-header'>");
             write("<image class='project-header-image' src='./assets/images/AIAI_prog.png'/>");
                 write("<div class='main-title'>Agency and Intentions in AI</div>");
+                write("<div class='subheader-text-light'>University of Göttingen, May 15-17, 2024</div>");
                   write("<div>");
                       write("<blockquote><p>How do you connect with a single piece of information?</p><p>Date ‘em</p>");
                           write("<footer><cite>Kyle Thompson</cite></footer>");
@@ -60,17 +61,17 @@ function footerContainer(){
                       write("Action Sensitivity in Grammar");
                   write("</a>");
           write("</div>");
-/*          write("<div>");
+/*ADD UofG image*/
+          write("<div>");
                   write("<a target='_blank' href='https://ail-workshop.github.io/'>");
                       write("<img src='./assets/images/ail_logo_blue.png' style='width:120px'>");
                   write("</a>");
           write("</div>");
           write("<div class='project-card-text-container'>");
                   write("<a class='button' target='_blank' href='https://ail-workshop.github.io/'>");
-                      write("Agency and Intentions in Language");
+                      write("University of Goettingen");
                   write("</a>");
           write("</div>");
- */
         write("</div>");
           }
   }
