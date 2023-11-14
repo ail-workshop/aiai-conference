@@ -61,7 +61,17 @@ function footerContainer(){
                       write("Action Sensitivity in Grammar");
                   write("</a>");
           write("</div>");
-/*ADD UofG image
+          write("<div>");
+                  write("<a target='_blank' href='https://ail-workshop.github.io/'>");
+                      write("<img src='./assets/images/AIAI_prog.png' style='width:120px'>");
+                  write("</a>");
+          write("</div>");
+          write("<div class='project-card-text-container'>");
+                  write("<a class='button' target='_blank' href='https://ail-workshop.github.io/aiai-conference/'>");
+                      write("Agency and Intentions in AI");
+                  write("</a>");
+          write("</div>");
+/*ADD UofG, DFG, and possibly VRF
           write("<div>");
                   write("<a target='_blank' href='https://ail-workshop.github.io/'>");
                       write("<img src='./assets/images/ail_logo_blue.png' style='width:120px'>");
